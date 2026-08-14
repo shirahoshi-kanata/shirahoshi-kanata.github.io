@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KANATA SNS POST – TikTok Content Management for Creators</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      background: #f9f9f7;
+      color: #1a1a1a;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .logo { font-size: 18px; font-weight: 700; letter-spacing: 0.5px; }
+    .logo span { color: #fe2c55; }
+    nav { display: flex; gap: 20px; font-size: 14px; }
+    nav a { color: #333; text-decoration: none; }
+    nav a:hover { color: #fe2c55; }
+    .hero {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 72px 24px 56px;
+      text-align: center;
+    }
+    .hero-logo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      margin-bottom: 20px;
+    }
+    .hero h1 { font-size: 34px; font-weight: 700; line-height: 1.3; }
+    .hero h1 span { color: #fe2c55; }
+    .hero p { font-size: 17px; color: #555; margin-top: 16px; max-width: 620px; margin-left: auto; margin-right: auto; }
+    .badge {
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 999px;
+      padding: 6px 16px;
+      font-size: 13px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .features {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 24px 64px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .feature {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .feature h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+    .feature h3 .emoji { margin-right: 6px; }
+    .feature p { font-size: 14px; color: #555; }
+    .section-title {
+      max-width: 900px;
+      margin: 24px auto 0;
+      padding: 0 24px;
+      font-size: 13px;
+      color: #999;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .lang-divider {
+      text-align: center;
+      margin: 48px 24px 32px;
+      font-size: 13px;
+      color: #999;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .lang-divider::before,
+    .lang-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #e5e5e5;
+    }
+    .ja {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 24px 72px;
+    }
+    .ja h2 { font-size: 22px; font-weight: 700; margin-bottom: 12px; }
+    .ja p { color: #555; }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+      padding: 28px 24px;
+      border-top: 1px solid #e5e5e5;
+      background: #fff;
+    }
+    footer a { color: #333; text-decoration: none; margin: 0 10px; }
+    footer a:hover { color: #fe2c55; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">KANATA <span>SNS POST</span></div>
+  <nav>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms-of-service.html">Terms of Service</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <img src="assets/kanata-logo.jpg" alt="Shirahoshi Kanata" class="hero-logo">
+  <div class="badge">TikTok Content Posting API</div>
+  <h1>Publish and manage TikTok content<br>— <span>built for creators</span></h1>
+  <p>
+    KANATA SNS POST is a cross-posting and content management service that lets creators
+    connect their TikTok accounts and publish videos safely, with full control over
+    privacy settings, interactions, and branded-content disclosure.
+  </p>
+</div>
+
+<div class="section-title">Key Features</div>
+<div class="features">
+  <div class="feature">
+    <h3><span class="emoji">🔗</span>TikTok Account Linking</h3>
+    <p>Secure OAuth connection with transparent account selection. You always know which account you are posting to.</p>
+  </div>
+  <div class="feature">
+    <h3><span class="emoji">🛡️</span>Privacy-First Publishing</h3>
+    <p>No default privacy levels. Every post requires an explicit choice — Public, Friends, or Private — with independent comment, Duet, and Stitch controls.</p>
+  </div>
+  <div class="feature">
+    <h3><span class="emoji">📤</span>Cross-Platform Workflow</h3>
+    <p>Prepare your content once and manage distribution across platforms from a single, clear interface.</p>
+  </div>
+</div>
+
+<div class="lang-divider">日本語 / Japanese</div>
+
+<div class="ja">
+  <h2>KANATA SNS POST について</h2>
+  <p>
+    KANATA SNS POST は、クリエイターの皆様がTikTokアカウントを安全に連携し、
+    動画の投稿・管理を行うためのコンテンツ管理サービスです。プライバシー設定や
+    コメント・Duet・Stitchなどの公開範囲を、投稿のたびに明示的に選択できます。
+  </p>
+</div>
+
+<footer>
+  <a href="privacy-policy.html">Privacy Policy</a>
+  <a href="terms-of-service.html">Terms of Service</a>
+  <div style="margin-top:10px">&copy; 2026 KANATA SNS POST. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
